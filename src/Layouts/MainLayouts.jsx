@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Nevbar from "../Components/Nevbar/Nevbar.";
+import Footer from "../Components/Footer/Footer";
 
 
 const MainLayouts = () => {
@@ -7,6 +8,7 @@ const MainLayouts = () => {
         <div>
             <Nevbar/>
             <Outlet/>
+            <Footer/>
         </div>
     );
 };

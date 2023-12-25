@@ -1,0 +1,13 @@
+/* li:hover{
+    background-color: blue;
+    color: white;
+} */
+
+/* li:after {
+    display:block;
+    content: '';
+    border-bottom: solid 3px black;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+  li:hover:after { transform: scaleX(1); } */
