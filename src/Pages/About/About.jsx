@@ -16,7 +16,7 @@ const About = () => {
                
                 </div>
              </div>
-             <div className="p-9 m-6">
+             <div className="max-w-7xl mx-auto  p-9 m-6">
                     <p>We teach student using advanced learning materials and ensure a congenial learning materials and ensure a congenial environment for connective Practice, regular test, systematic and most importantly science based activities in the classrooms targeting Academic calendar published for each year under the guidance of Minstry of Education, Sylhet Education Board. As a result this institution has been establishing its superiority both in curricular and co-curricular activities.</p>
 <br/>
 <p>This institution has been able to acquire appraisal in the field of inter school & college debate, cultural competition, essay competition and education co-curricular activities. 

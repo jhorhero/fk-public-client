@@ -1,0 +1,10 @@
+.image{
+    transition: .5s ease;
+    &:hover{
+        transform: translateY(-10px);
+    }
+}
+.bggIm{
+    background-repeat: no-repeat;
+    background-size: cover;
+}

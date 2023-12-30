@@ -25,12 +25,12 @@ const TeacherInfo = () => {
                 <div data-aos="fade-right"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000"  className="flex mb-4  flex-col gap-2 items-center w-full lg:w-1/3">
-                    <img src="https://storage.googleapis.com/example-images/129421/teacher/1.jpeg" alt=""  className="w-52 h-52" />
+                    <img src="https://storage.googleapis.com/example-images/129421/teacher/1.jpeg" alt=""  className="w-52 h-52 rounded-md" />
                     <h6
       className="block  font-sans text-blue-600 antialiased font-bold leading-relaxed tracking-normal uppercase">
       MD. HARUNUR RASID TALUKDER
     </h6>
-    <h4 className="block  font-sans  antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+    <h4 className="block  font-sans  antialiased font-bold leading-snug text-xl tracking-normal text-blue-gray-900">
       Headmaster
     </h4>
                 </div>

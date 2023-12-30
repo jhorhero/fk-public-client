@@ -1,6 +1,6 @@
 import logo from '../../assets/logo.png';
 import Navlinkss from './Navlinks';
-import { MdMenuBook } from "react-icons/md"
+
 
 const Nevbar = () => {
     return (
@@ -17,14 +17,14 @@ const Nevbar = () => {
                 <img  className='w-32' src={logo} alt="" />
             </div>
             <div>
-                <p>ESTD:2013</p>
-                <h1 className='font-bold text-blue-500'>Longor para F.K Public School </h1>
+                <p>ESTD: 2013</p>
+                <h1 className='font-bold text-blue-500'>Longorpara F.K Public School </h1>
                 <p>Longorpara,Sherpur</p>
             </div>
         </div>
     
         </div>
-            <div className="navbar bg-base-200  shadow-lg">
+            <div className="navbar   bg-gray-200  shadow-lg">
 
   <div className="navbar-start">
              {/* DropDown */}
@@ -53,7 +53,7 @@ const Nevbar = () => {
 
 
   <div className="navbar-end">
-    
+     {/* <a className="btn btn-ghost text-xl lg:hidden" >Longorpara F.K Public School</a> */}
   </div>
 </div>
         </>

@@ -1,6 +1,8 @@
 import { Helmet } from "react-helmet-async";
 import Banner from "./Home Components/Banner/Banner";
 import Notice from "./Home Components/Notice/Notice";
+import Statics from "./Home Components/Staticss/Statics";
+import OurTeacher from "./Home Components/OurTeacher/OurTeacher";
 
 const Home = () => {
     return (
@@ -9,9 +11,12 @@ const Home = () => {
         <title>FK Public School | Home</title>
             </Helmet>
             <Notice/>
-            <div className="max-w-screen-2xl mx-auto">
+            <div className="container mx-auto ">
             <Banner />
+            
             </div>
+            <OurTeacher/>
+            <Statics/>
         </div>
     );
 };
