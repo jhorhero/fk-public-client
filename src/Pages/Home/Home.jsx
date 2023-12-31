@@ -3,6 +3,7 @@ import Banner from "./Home Components/Banner/Banner";
 import Notice from "./Home Components/Notice/Notice";
 import Statics from "./Home Components/Staticss/Statics";
 import OurTeacher from "./Home Components/OurTeacher/OurTeacher";
+import StudentStatics from "./Home Components/Students Staticss/StudentStatics";
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             </div>
             <OurTeacher/>
             <Statics/>
+            <StudentStatics/>
         </div>
     );
 };

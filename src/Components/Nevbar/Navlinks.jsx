@@ -44,9 +44,17 @@ className={({ isActive, isPending }) =>
 >
 Admission
 </NavLink>
+        <NavLink
+to="/result"
+className={({ isActive, isPending }) =>
+  isPending ? "pending" : isActive ? "py-3 font-bold px-6 bg-blue-600 text-white ml-1 rounded-xl" : "py-3 px-6 hover:bg-blue-600 hover:text-white  ml-1 font-bold text-black rounded-xl"
+}
+>
+Result
+</NavLink>
 
 <div className="dropdown dropdown-hover">
-  <div tabIndex={0} role="button" className="py-3 px-6 flex items-center hover:bg-blue-600 hover:text-white  ml-1 font-bold text-black rounded-xl">Admission <IoIosArrowDown className="ml-1 font-extrabold text-base" /></div>
+  <div tabIndex={0} role="button" className="py-3 px-6 flex items-center hover:bg-blue-600 hover:text-white  ml-1 font-bold text-black rounded-xl">Others<IoIosArrowDown className="ml-1 font-extrabold text-base" /></div>
   <ul tabIndex={0} className="dropdown-content z-[2]  menu p-2 shadow bg-base-100 rounded-box w-52">
  
   <NavLink

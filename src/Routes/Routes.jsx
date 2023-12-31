@@ -5,6 +5,7 @@ import About from "../Pages/About/About";
 import OurTeacher from "../Pages/Our Teacher/OurTeacher";
 import TeacherInfo from "../Pages/Our Teacher/TeacherInfo";
 import Admisions from "../Pages/Admission/Admisions";
+import Result from "../Pages/Result/Result";
 
 
 
@@ -24,6 +25,10 @@ export const router = createBrowserRouter([
         {
             path: "/our-teacher",
             element: <OurTeacher/>,
+        },
+        {
+            path: "/result",
+            element: <Result/>,
         },
         {
             path: "/admission",

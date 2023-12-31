@@ -41,6 +41,11 @@ const Footer = () => {
     <a className="link link-hover">Cookie policy</a>
   </nav>
 </footer>   
+<footer className="footer footer-center p-4 bg-base-300 text-base-content">
+  <aside>
+    <p>Developed By © <a href="https://www.facebook.com/peacecoder69" target='_blank' className='underline text-blue-400 hover:text-blue-600'>PeaceCoder Anas</a></p>
+  </aside>
+</footer>
         </>
     );
 };

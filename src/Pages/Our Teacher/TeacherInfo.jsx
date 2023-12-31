@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { IoIosArrowForward } from "react-icons/io";
 import { Link } from "react-router-dom";
+import arif from '../../assets/arif.jpg';
 
 
 const TeacherInfo = () => {
@@ -28,12 +29,15 @@ const TeacherInfo = () => {
                     <img src="https://storage.googleapis.com/example-images/129421/teacher/1.jpeg" alt=""  className="w-52 h-52 rounded-md" />
                     <h6
       className="block  font-sans text-blue-600 antialiased font-bold leading-relaxed tracking-normal uppercase">
-      MD. HARUNUR RASID TALUKDER
+      Arif Hasan
     </h6>
     <h4 className="block  font-sans  antialiased font-bold leading-snug text-xl tracking-normal text-blue-gray-900">
       Headmaster
     </h4>
                 </div>
+
+
+
                 {/* Deatails  */}
                 <div data-aos="fade-left"
      data-aos-easing="ease-out-cubic"

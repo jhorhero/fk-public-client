@@ -12,12 +12,12 @@ const Statics = () => {
             
             <div className="py-8 z-10 max-w-7xl mx-auto">
 
-            <h1 className="text-center  text-2xl lg:text-3xl font-semibold text-black">Statics</h1>
+            <h1 className="text-center  text-2xl lg:text-3xl font-semibold text-white">Statics</h1>
             <hr className="mx-auto border-1 mt-2 leading-9 w-16" />
             <hr className="mx-auto border-1 mt-1 w-10 " />
-            <p data-aos="zoom-in-up" className="text-base py-3 lg:text-2xl text-black text-center">Our Organization At a Glance</p>
+            <p data-aos="zoom-in-up" className="text-base py-3 lg:text-2xl text-white text-center">Our Organization At a Glance</p>
             
-            <div className="grid   my-6 gap-1 grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
+            <div className="grid text-white  my-6 gap-1 grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
 
                     {/* Student Card */}
                 <div className="text-black   image">

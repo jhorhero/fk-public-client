@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-
+import arif  from '../../../../assets/arif.jpg';
+import monmon  from '../../../../assets/munmonSir.jpg';
 
 const OurTeacher = () => {
     return (
@@ -16,24 +17,10 @@ const OurTeacher = () => {
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000"  className="card ">
             <figure className="px-5 ">  {/* // px-10 pt-10 */}
-            <img src="https://storage.googleapis.com/example-images/129421/teacher/1.jpeg" className="lg:h-52  w-full h-full lg:w-52 " alt="" />
+            <img src={monmon} className="lg:h-52  w-full h-full lg:w-52 " alt="" />
             </figure>
          <div className="py-2">
-         <h1 className="text-sm lg:text-xl font-bold text-center">Md Harun Rashid</h1>
-             <p className="text-sm lg:text-base text-center text-gray-400 font-semibold">Headmaster</p>
-         </div>
-
-          </div>
-
-              {/* Testing */}
-          <div data-aos="fade-up"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000"  className="card ">
-            <figure className="px-5 ">  {/* // px-10 pt-10 */}
-            <img src="https://storage.googleapis.com/example-images/129421/teacher/1.jpeg" className="lg:h-52  w-full h-full lg:w-52" alt="" />
-            </figure>
-         <div className="py-2">
-         <h1 className="text-sm lg:text-xl font-bold text-center">Md Harun Rashid</h1>
+         <h1 className="text-sm lg:text-xl font-bold text-center">Tanzil Hassin</h1>
              <p className="text-sm lg:text-base text-center text-gray-400 font-semibold">Headmaster</p>
          </div>
 
@@ -43,79 +30,16 @@ const OurTeacher = () => {
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000"  className="card ">
             <figure className="px-5 ">  {/* // px-10 pt-10 */}
-            <img src="https://storage.googleapis.com/example-images/129421/teacher/1.jpeg" className="lg:h-52  w-full h-full lg:w-52" alt="" />
+            <img src={arif} className="lg:h-52  w-full h-full lg:w-52 " alt="" />
             </figure>
          <div className="py-2">
-         <h1 className="text-sm lg:text-xl font-bold text-center">Md Harun Rashid</h1>
-             <p className="text-sm lg:text-base text-center text-gray-400 font-semibold">Headmaster</p>
+         <h1 className="text-sm lg:text-xl font-bold text-center">Arif Hasan</h1>
+             <p className="text-sm lg:text-base text-center text-gray-400 font-semibold">Assistant Teacher</p>
          </div>
 
           </div>
-              {/* Testing */}
-          <div data-aos="fade-up"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000"  className="card ">
-            <figure className="px-5 ">  {/* // px-10 pt-10 */}
-            <img src="https://storage.googleapis.com/example-images/129421/teacher/1.jpeg" className="lg:h-52  w-full h-full lg:w-52" alt="" />
-            </figure>
-         <div className="py-2">
-         <h1 className="text-sm lg:text-xl font-bold text-center">Md Harun Rashid</h1>
-             <p className="text-sm lg:text-base text-center text-gray-400 font-semibold">Headmaster</p>
-         </div>
 
-          </div>
-              {/* Testing */}
-          <div data-aos="fade-up"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000"  className="card ">
-            <figure className="px-5 ">  {/* // px-10 pt-10 */}
-            <img src="https://storage.googleapis.com/example-images/129421/teacher/1.jpeg" className="lg:h-52  w-full h-full lg:w-52" alt="" />
-            </figure>
-         <div className="py-2">
-         <h1 className="text-sm lg:text-xl font-bold text-center">Md Harun Rashid</h1>
-             <p className="text-sm lg:text-base text-center text-gray-400 font-semibold">Headmaster</p>
-         </div>
-
-          </div>
-              {/* Testing */}
-          <div data-aos="fade-up"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000"  className="card ">
-            <figure className="px-5 ">  {/* // px-10 pt-10 */}
-            <img src="https://storage.googleapis.com/example-images/129421/teacher/1.jpeg" className="lg:h-52  w-full h-full lg:w-52" alt="" />
-            </figure>
-         <div className="py-2">
-         <h1 className="text-sm lg:text-xl font-bold text-center">Md Harun Rashid</h1>
-             <p className="text-sm lg:text-base text-center text-gray-400 font-semibold">Headmaster</p>
-         </div>
-
-          </div>
-              {/* Testing */}
-          <div data-aos="fade-up"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000"  className="card ">
-            <figure className="px-5 ">  {/* // px-10 pt-10 */}
-            <img src="https://storage.googleapis.com/example-images/129421/teacher/1.jpeg" className="lg:h-52  w-full h-full lg:w-52" alt="" />
-            </figure>
-         <div className="py-2">
-         <h1 className="text-sm lg:text-xl font-bold text-center">Md Harun Rashid</h1>
-             <p className="text-sm lg:text-base text-center text-gray-400 font-semibold">Headmaster</p>
-         </div>
-
-          </div>
-              {/* Testing */}
-          <div data-aos="fade-up"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000"  className="card ">
-            <figure className="px-5 ">  {/* // px-10 pt-10 */}
-            <img src="https://storage.googleapis.com/example-images/129421/teacher/1.jpeg" className="lg:h-52  w-full h-full lg:w-52" alt="" />
-            </figure>
-         <div className="py-2">
-         <h1 className="text-sm lg:text-xl font-bold text-center">Md Harun Rashid</h1>
-             <p className="text-sm lg:text-base text-center text-gray-400 font-semibold">Headmaster</p>
-         </div>
-
-          </div>
+             
           
           
               

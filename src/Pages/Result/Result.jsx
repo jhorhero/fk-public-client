@@ -1,13 +1,12 @@
 import { Helmet } from "react-helmet-async";
 
 
-const Admisions = () => {
+const Result = () => {
     return (
-        
-        <div className="bg-gray-100  flex items-center justify-center">
+        <div className="bg-gray-100 min-h-[30vh]  flex items-center justify-center">
  
  <Helmet>
-        <title>Others</title>
+        <title>Result</title>
             </Helmet>
 
   <div className="bg-white max-w-md p-6 rounded-md shadow-md">
@@ -30,4 +29,4 @@ const Admisions = () => {
     );
 };
 
-export default Admisions;
+export default Result;

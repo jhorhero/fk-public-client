@@ -4,8 +4,8 @@ import { FaPlay } from "react-icons/fa";
 const Notice = () => {
     return (
         <div className=" bg-blue-700  ">
-            <div className="flex mx-9  max-w-full h-[9vh] items-center text-white">
-            <h2 className="text-xl p-2 border-r-2">Notice</h2> 
+            <div className="flex lg:mx-9 mx-2  max-w-full h-[9vh] items-center text-white">
+            <h2 className="text-xl p-2 font-bold border-r-2">Notice</h2> 
             <Marquee pauseOnHover={true} speed={50} delay={5}  gradient={false}>
                 <p className="text-base ml-6 flex items-center gap-2"> <FaPlay className="text-yellow-500"/> <span >  আপনার সোনামনির সুন্দর ভবিষ্যৎ গঠনের লক্ষ্যে লংগরপাড়া এফ.কে. পাবলিক স্কুল নিরলসভাবে কাজ করে যাচ্ছে। শুধু শিক্ষায় শিক্ষিত না, সর্বোপরি একজন মানবিক সুন্দর মানুষ হিসেবে গড়ে উঠবে যেমনটা প্রত্যেক বাবা-মার চাওয়া। ইনশাআল্লাহ!</span></p>
                 {/* <p className="text-base ml-6 flex items-center gap-2"> <FaPlay className="text-yellow-500"/> <span >  পবিত্র রমাজান, স্বাধীনতা ও জাতীয় দিবস,ইস্টার সানডে,বৈসাবি,নববর্ষ,শব-ই-ক্বদর,জুমাতুল বিদা, ঈদ-উল-ফিতর উপলক্ষে পাঠদান কার্যক্রম বন্ধের নোটিশ।</span></p>
