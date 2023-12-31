@@ -6,6 +6,7 @@ import OurTeacher from "../Pages/Our Teacher/OurTeacher";
 import TeacherInfo from "../Pages/Our Teacher/TeacherInfo";
 import Admisions from "../Pages/Admission/Admisions";
 import Result from "../Pages/Result/Result";
+import WhyStudy from "../Pages/Others/WhyStudy/WhyStudy";
 
 
 
@@ -37,6 +38,10 @@ export const router = createBrowserRouter([
         {
             path: "/teacher-info",
             element: <TeacherInfo/>,
+        },
+        {
+            path: "/why",
+            element: <WhyStudy/>,
         },
       ]
     },

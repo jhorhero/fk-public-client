@@ -1,31 +1,90 @@
 import { Helmet } from "react-helmet-async";
-
+import { IoIosArrowForward } from "react-icons/io";
+import { Link } from "react-router-dom";
+import { IoSearch } from "react-icons/io5";
 
 const Result = () => {
     return (
-        <div className="bg-gray-100 min-h-[30vh]  flex items-center justify-center">
- 
- <Helmet>
+        <>
+        <Helmet>
         <title>Result</title>
             </Helmet>
-
-  <div className="bg-white max-w-md p-6 rounded-md shadow-md">
-    <div className="flex items-start">
-      <div className="mr-4">
-        {/* <!-- Use appropriate icon for your notice, I'm using an exclamation mark for demonstration purposes --> */}
-        <svg className="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h0"></path>
-          <path d="M21 21.167A10 10 0 1 1 2.83 2.83 10 10 0 0 1 21 21.167zM12 14V7"></path>
-        </svg>
-      </div>
-      <div>
-        <p className="text-sm font-medium text-gray-800">Notice:</p>
-        <p className="text-sm text-gray-600">This is a sample notice. Sorry! No Information Found.</p>
-      </div>
-    </div>
+            
+        <div className=" max-w-7xl py-5 mx-auto flex items-center  flex-col ">
+ 
+        <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-yellow-100">
+      <form className="card-body">
+        <div className="form-control">
+        <label className="form-control w-full max-w-xs">
+  <div className="label">
+    <span className="label-text text-blue-500">EXAM & SESSION *</span>
+  
   </div>
+  <select className="select select-bordered">
+    <option disabled selected>Select one</option>
+    <option>Annual Exam -2024</option>
+    <option>Half Yearly -2024</option>
+    <option>Test Exam</option>
+    <option>Pre Test - 2024</option>
+    <option>Model Test - 2024</option>
+  </select>
+</label>
+        </div>
 
+
+        <div className="form-control">
+        <label className="form-control w-full max-w-xs">
+  <div className="label">
+    <span className="label-text text-blue-500">SECTION</span>
+  
+  </div>
+  <select className="select select-bordered">
+    <option disabled selected>Select one</option>
+    <option>SECTION -A </option>
+    <option>SECTION -B </option>
+    <option>SECTION -C </option>
+    <option>SECTION -D </option>
+  
+  </select>
+</label>
+        </div>
+        <div className="form-control">
+        <label className="form-control w-full max-w-xs">
+  <div className="label">
+    <span className="label-text text-blue-500">GROUP</span>
+  
+  </div>
+  <select className="select select-bordered">
+    <option disabled selected>Select one</option>
+    <option>Science </option>
+    <option>Humanities </option>
+    <option>Business Studies </option>
+    
+  
+  </select>
+</label>
+        </div>
+        <div className="form-control">
+          <label className="label">
+            <span className="label-text text-blue-500">Roll Number</span>
+          </label>
+          <input type="number" placeholder="Roll" className="input input-bordered" required />
+        </div>
+       
+        <div className="form-control mt-6">
+          <button className=" py-3 px-6 flex items-center justify-center bg-blue-600 hover:text-white gap-2  ml-1 font-bold text-black rounded-xl"> <IoSearch className="text-xl" /> Search</button>
+        </div>
+      </form>
+    </div>
+        
+        
+        
+       
+
+  
 </div>
+        </>
+   
     );
 };
 

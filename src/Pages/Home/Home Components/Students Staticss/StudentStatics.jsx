@@ -18,7 +18,7 @@ const StudentStatics = () => {
             <p data-aos="zoom-in-up" className="text-base py-3 lg:text-2xl text-white text-center">Class wise Students</p>
            
             
-            <div className="grid w-[70vw] mx-auto  p-2 gap-1 grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
+            <div className="grid w-[70vw] mx-auto   gap-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 
                     {/* Play Card */}
                 <div className="text-white  py-9 w-32 h-32  bg-red-600 rounded-full image">
