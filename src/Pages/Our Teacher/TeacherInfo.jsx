@@ -30,7 +30,7 @@ const TeacherInfo = () => {
                     <img src={monmon} alt=""  className="w-52 h-52 rounded-md" />
                     <h6
       className="block  font-sans text-blue-600 antialiased font-bold leading-relaxed tracking-normal uppercase">
-     Tanzil Hassin
+     
     </h6>
     <h4 className="block  font-sans  antialiased font-bold leading-snug text-xl tracking-normal text-blue-gray-900">
       Headmaster

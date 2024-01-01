@@ -4,6 +4,7 @@ import Notice from "./Home Components/Notice/Notice";
 import Statics from "./Home Components/Staticss/Statics";
 import OurTeacher from "./Home Components/OurTeacher/OurTeacher";
 import StudentStatics from "./Home Components/Students Staticss/StudentStatics";
+import NoticeBoard from "./Home Components/Notice Board/NoticeBoard";
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
             </div>
             <OurTeacher/>
             <Statics/>
+            < NoticeBoard />
             <StudentStatics/>
         </div>
     );

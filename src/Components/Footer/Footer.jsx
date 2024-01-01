@@ -27,20 +27,24 @@ const Footer = () => {
     
   </nav> 
   <nav >
-    <header className="footer-title">Company</header> 
-    <a className="link link-hover">About us</a>
-    <a className="link link-hover">Contact</a>
-    <a className="link link-hover">Jobs</a>
-    <a className="link link-hover">Press kit</a>
+    <header className="footer-title">.... </header> 
+    
+    <a className="link link-hover" href='https://www.du.ac.bd/' target='_blank'>Dhaka Univercity</a>
+    <a className="link link-hover" href='https://www.sust.edu/' target='_blank' >SUST</a>
+    <a className="link link-hover" href='https://mopme.gov.bd/' target='_blank' >Primary & Mass Education</a>
+    <a className="link link-hover" href='https://pathshala-eims.com/' target='_blank' >Pathshala EIMS</a>
+    
   </nav> 
   
   <nav>
-    <header className="footer-title">Legal</header> 
-    <a className="link link-hover">Terms of use</a>
-    <a className="link link-hover">Privacy policy</a>
-    <a className="link link-hover">Cookie policy</a>
+    <header className="footer-title">...</header> 
+    <a className="link link-hover">Facebook Page</a>
+    
+    <a className="link link-hover">Twitter</a>
+    <a className="link link-hover">Instragram</a>
   </nav>
-</footer>   
+</footer>  
+
 <footer className="footer footer-center p-4 bg-base-300 text-base-content">
   <aside>
     <p>Developed By © <a href="https://www.facebook.com/peacecoder69" target='_blank' className='underline text-blue-400 hover:text-blue-600'>PeaceCoder Anas</a></p>

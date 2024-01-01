@@ -1,6 +1,7 @@
 
 import banner from '../../../../assets/banner.jpg';
-import banner1 from '../../../../assets/banner1.jpg';
+import banner0 from '../../../../assets/banner1.jpg';
+import banner1 from '../../../../assets/traveling.jpg';
 import banner2 from '../../../../assets/banner2.png';
 import banner3 from '../../../../assets/banner3.png';
 import banner4 from '../../../../assets/banner4.jpg';
@@ -20,16 +21,15 @@ const Banner = () => {
     return (
         <>
              <Swiper  navigation={true} modules={[Autoplay,Navigation]} autoplay={{delay: 5000}} className="mySwiper">
-        <SwiperSlide>
-          <img  src={banner5} className='w-full h-[60vh] rounded-lg relative border-red-500 border-4' alt="" />
-       
-        </SwiperSlide>
-        <SwiperSlide><img  src={banner6} className='w-full h-[60vh] rounded-lg border-red-500 border-4' alt="" /></SwiperSlide>
-        <SwiperSlide><img  src={banner} className='w-full h-[60vh] rounded-lg border-red-500 border-4' alt="" /></SwiperSlide>
-        <SwiperSlide><img src={banner1} className='w-full h-[60vh] rounded-md border-red-500 border-4'  alt="" /></SwiperSlide>
-        <SwiperSlide><img src={banner2} className='w-full h-[60vh] rounded-md border-red-500 border-4'  alt="" /></SwiperSlide>
-        <SwiperSlide><img src={banner3} className='w-full h-[60vh] rounded-md border-red-500 border-4'  alt="" /></SwiperSlide>
-        <SwiperSlide><img src={banner4} className='w-full h-[60vh] rounded-md border-red-500 border-4'  alt="" /></SwiperSlide>
+        <SwiperSlide><img  src={banner5} className='w-full h-[65vh] rounded-md   ' alt="" /></SwiperSlide>
+        <SwiperSlide><img  src={banner6} className='w-full h-[65vh] rounded-md  ' alt="" /></SwiperSlide>
+        <SwiperSlide><img  src={banner} className='w-full h-[65vh] rounded-md  ' alt="" /></SwiperSlide>
+        <SwiperSlide><img src={banner1} className='w-full h-[65vh] rounded-md  '  alt="" /></SwiperSlide>
+        <SwiperSlide><img src={banner0} className='w-full h-[65vh] rounded-md  '  alt="" /></SwiperSlide>
+        <SwiperSlide><img src={banner1} className='w-full h-[65vh] rounded-md  '  alt="" /></SwiperSlide>
+        <SwiperSlide><img src={banner2} className='w-full h-[65vh] rounded-md  '  alt="" /></SwiperSlide>
+        <SwiperSlide><img src={banner3} className='w-full h-[60vh] rounded-md  '  alt="" /></SwiperSlide>
+        <SwiperSlide><img src={banner4} className='w-full h-[60vh] rounded-md  '  alt="" /></SwiperSlide>
       </Swiper>   
         </>
     );
