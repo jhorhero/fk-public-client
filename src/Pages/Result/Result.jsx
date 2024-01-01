@@ -30,6 +30,29 @@ const Result = () => {
   </select>
 </label>
         </div>
+        <div className="form-control">
+        <label className="form-control w-full max-w-xs">
+  <div className="label">
+    <span className="label-text text-blue-500">Class *</span>
+  
+  </div>
+  <select className="select select-bordered">
+    <option disabled selected>Select one</option>
+    <option>Play</option>
+    <option>Nurcery</option>
+    <option>One</option>
+    <option>Two</option>
+    <option>Three</option>
+    <option>Four</option>
+    <option>Five</option>
+    <option>Six</option>
+    <option>Seven</option>
+    <option>Eight</option>
+    <option>Nine</option>
+    <option>Ten</option>
+  </select>
+</label>
+        </div>
 
 
         <div className="form-control">

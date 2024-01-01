@@ -1,0 +1,8 @@
+.cccc{
+    overflow: hidden;
+    transition: .5s ease;
+    &:hover{
+        
+        transform: translateY(-10px);
+    }
+}

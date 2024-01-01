@@ -37,7 +37,7 @@ const Statics = () => {
       <img src="https://www.shaistaganjhighschool.edu.bd/assets/img/icon/teacher.png" className=" " alt="" />
       </div>
      <ScrollTrigger onEnter={()=> setCounterOn(true)} onExit={()=> setCounterOn(false)} >  <p className="text-4xl py-2 font-extrabold text-center">{ 
-     counterOn && <CountUp duration={2} delay={0} start={0} end={37}></CountUp>
+     counterOn && <CountUp duration={2} delay={0} start={0} end={22}></CountUp>
      }</p> </ScrollTrigger> 
     
       <h2 className="font-bold text-center">Teacher</h2>
