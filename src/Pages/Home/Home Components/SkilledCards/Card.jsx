@@ -1,5 +1,5 @@
-import { FaBookAtlas, FaBookBible, FaBookBookmark, FaBookJournalWhills, FaGraduationCap } from "react-icons/fa6";
-import { FaBook, FaBookDead, FaBookOpen, FaGlobe, FaHome } from "react-icons/fa";
+import {  FaGraduationCap } from "react-icons/fa6";
+import {  FaBookOpen, FaGlobe, FaHome } from "react-icons/fa";
 import './Cards.css'
 
 

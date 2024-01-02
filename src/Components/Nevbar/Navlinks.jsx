@@ -72,17 +72,10 @@ className={({ isActive, isPending }) =>
   isPending ? "pending" : isActive ? "py-3 font-bold px-6 bg-blue-600 text-white ml-1 rounded-xl" : "py-3 px-6 hover:bg-blue-600 hover:text-white  ml-1 font-bold text-black rounded-xl"
 }
 >
-How to Apply?
-</NavLink>
-
-<NavLink
-to='/playground'
-className={({ isActive, isPending }) =>
-  isPending ? "pending" : isActive ? "py-3 font-bold px-6 bg-blue-600 text-white ml-1 rounded-xl" : "py-3 px-6 hover:bg-blue-600 hover:text-white  ml-1 font-bold text-black rounded-xl"
-}
->
 PlayGround
 </NavLink>
+
+
 
 <NavLink
 to='/library'

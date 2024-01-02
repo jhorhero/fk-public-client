@@ -7,6 +7,8 @@ import TeacherInfo from "../Pages/Our Teacher/TeacherInfo";
 import Admisions from "../Pages/Admission/Admisions";
 import Result from "../Pages/Result/Result";
 import WhyStudy from "../Pages/Others/WhyStudy/WhyStudy";
+import Play from "../Pages/PlayGround/Play";
+import Library from "../Pages/Libaray/Library";
 
 
 
@@ -42,6 +44,14 @@ export const router = createBrowserRouter([
         {
             path: "/why",
             element: <WhyStudy/>,
+        },
+        {
+            path: "/playground",
+            element: <Play/>,
+        },
+        {
+            path: "/library",
+            element: <Library/>,
         },
       ]
     },
