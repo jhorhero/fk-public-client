@@ -23,7 +23,7 @@ const StudentStatics = () => {
                     {/* Play Card */}
                 <div className="text-white  py-9 w-32 h-32  bg-red-600 rounded-full image">
                    <ScrollTrigger onEnter={()=> setCounterOn(true)} onExit={()=> setCounterOn(false)} >  <p className="text-4xl font-extrabold text-center">{ 
-                   counterOn && <CountUp duration={2} delay={0} start={0} end={500}></CountUp>
+                   counterOn && <CountUp duration={2} delay={0} start={0} end={25}></CountUp>
                    }</p> </ScrollTrigger> 
                   
                     <h2 className="font-bold text-center">Play</h2>
@@ -50,7 +50,7 @@ const StudentStatics = () => {
                     {/* Two Card */}
                 <div className="text-white  py-9 w-32 h-32  bg-red-600 rounded-full image">
                    <ScrollTrigger onEnter={()=> setCounterOn(true)} onExit={()=> setCounterOn(false)} >  <p className="text-4xl font-extrabold text-center">{ 
-                   counterOn && <CountUp duration={2} delay={0} start={0} end={500}></CountUp>
+                   counterOn && <CountUp duration={2} delay={0} start={0} end={38}></CountUp>
                    }</p> </ScrollTrigger> 
                   
                     <h2 className="font-bold text-center">Two</h2>
@@ -59,10 +59,34 @@ const StudentStatics = () => {
                     {/* Three Card */}
                 <div className="text-white  py-9 w-32 h-32  bg-red-600 rounded-full image">
                    <ScrollTrigger onEnter={()=> setCounterOn(true)} onExit={()=> setCounterOn(false)} >  <p className="text-4xl font-extrabold text-center">{ 
-                   counterOn && <CountUp duration={2} delay={0} start={0} end={500}></CountUp>
+                   counterOn && <CountUp duration={2} delay={0} start={0} end={36}></CountUp>
                    }</p> </ScrollTrigger> 
                   
                     <h2 className="font-bold text-center">Three</h2>
+                </div>
+                    {/* Four Card */}
+                <div className="text-white  py-9 w-32 h-32  bg-red-600 rounded-full image">
+                   <ScrollTrigger onEnter={()=> setCounterOn(true)} onExit={()=> setCounterOn(false)} >  <p className="text-4xl font-extrabold text-center">{ 
+                   counterOn && <CountUp duration={2} delay={0} start={0} end={20}></CountUp>
+                   }</p> </ScrollTrigger> 
+                  
+                    <h2 className="font-bold text-center">Four</h2>
+                </div>
+                    {/* Five Card */}
+                <div className="text-white  py-9 w-32 h-32  bg-red-600 rounded-full image">
+                   <ScrollTrigger onEnter={()=> setCounterOn(true)} onExit={()=> setCounterOn(false)} >  <p className="text-4xl font-extrabold text-center">{ 
+                   counterOn && <CountUp duration={2} delay={0} start={0} end={35}></CountUp>
+                   }</p> </ScrollTrigger> 
+                  
+                    <h2 className="font-bold text-center">Four</h2>
+                </div>
+                    {/* Six Card */}
+                <div className="text-white  py-9 w-32 h-32  bg-red-600 rounded-full image">
+                   <ScrollTrigger onEnter={()=> setCounterOn(true)} onExit={()=> setCounterOn(false)} >  <p className="text-4xl font-extrabold text-center">{ 
+                   counterOn && <CountUp duration={2} delay={0} start={0} end={40}></CountUp>
+                   }</p> </ScrollTrigger> 
+                  
+                    <h2 className="font-bold text-center">Six</h2>
                 </div>
                     
                 

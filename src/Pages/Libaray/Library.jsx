@@ -6,7 +6,7 @@ const Library = () => {
         <div className="bg-gray-100 h-[15rem] flex items-center justify-center">
  
         <Helmet>
-               <title>Playground</title>
+               <title>Library</title>
                    </Helmet>
        
          <div className="bg-white max-w-md p-6 rounded-md shadow-md">
